@@ -103,7 +103,7 @@ if DEBUG==1
     [X,Y]=meshgrid(20:20:Xmax,20:20:Ymax);
     
     % colormap
-    figure,imshow(clrmp,[])
+    figure,imshow(clrmp,[]) % accumulated over all images in the folder
     colormap('hsv')
     colorbar
     hold on
@@ -114,10 +114,6 @@ if DEBUG==1
     figure,imshow(lambdaMaxMin,[1 6])
     xlabel('Lambda Max/Min');
     
-    figure,quiver(gx,gy)
-    axis ij
-    xlabel('Gradient')
-    
-    figure,imshow(I,[])
+    figure,imshow(I,[]) % original image
     xlabel('Image');
 end
