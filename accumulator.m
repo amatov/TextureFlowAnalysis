@@ -9,7 +9,7 @@ function A=accumulator(alpha)
 %
 % OUTPUT    
 %
-% DEPENDENCES   accumulator uses { textureFilter.m }
+% DEPENDENCES   accumulator uses { the resulting images from textureFilter.m }
 %               accumulator is used by {  }
 %
 % Alexandre Matov, February 11th, 2003
