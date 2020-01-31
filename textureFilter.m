@@ -16,7 +16,7 @@ function [I,clrmp,gx,gy,lambdaMaxMin]=textureFilter(ma,Ras)
 %                           lambdaMax gives the magnitude of the local gradient
 %                           lambdaMin gives the magnitude of the local direction
 %
-% DEPENDENCES   textureFilter uses { wrappedColors, nrm, gauss2d }
+% DEPENDENCES   textureFilter uses { Gauss2D1 }
 %               textureFilter is used by { }
 %
 % Alexandre Matov, February 20th, 2003
@@ -32,8 +32,8 @@ end
 I=imread([dirName,filesep,fileName]);
 I=I(:,:,1);
 I=double(I);
-I=nrm(I,8);
-I=gauss2d(I,1);
+%I=nrm(I,8);
+I=Gauss2D1(I,1);
 
 % convolution mask
 mask=ones(ma);
@@ -104,7 +104,7 @@ if DEBUG==1
     
     % colormap
     figure,imshow(clrmp,[])
-    colormap('wrappedColors')
+    colormap('hsv')
     colorbar
     hold on
     h = quiver(X(:),Y(:),sin(clrmpS(:)),cos(clrmpS(:)),'wo','filled');
