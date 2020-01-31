@@ -62,10 +62,6 @@ for i=1:n
     % Read images from disk
     I1=imread(currentFile1);
     
-%     % TEST ANDREA
-%     cut_off = 1200;
-%     I1(find(I1>cut_off))=cut_off;
-    
     % Accumulator
     I1=double(I1);
     Acc=double(Acc);
