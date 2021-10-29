@@ -1,2 +1,2 @@
 #####  **TextureBasedAnalysis**
-######  function textureFilter computes the local motion orientation and displays it with streaks.
+######  Function textureFilter computes the local motion orientation and displays it with streaks.
