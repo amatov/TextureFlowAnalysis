@@ -1,4 +1,4 @@
-## TextureFlowAnalysis
+## Texture Flow Analysis
 
 Matlab code I wrote for an orientational sensitive texture filter.
 
