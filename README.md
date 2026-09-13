@@ -25,5 +25,6 @@ in [`media/`](media/).
 
 ## About
 
-Function textureFilter.m computes the local motion orientation based on the Jacobian matrix and displays it with streaks, and a directional color-coded map
-For detailed information, see: https://www.researchgate.net/publication/387029369_Modulation_of_the_Cytoskeleton_for_Cancer_Therapy
+The textureFilter.m function computes the local motion orientation based on the Jacobian matrix and displays it with streaks, and a directional color-coded map.
+
+For detailed information, see: https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1681065/full
