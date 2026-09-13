@@ -1,9 +1,9 @@
 # Dependencies
 
-No specific MATLAB version is recorded. The scripts use `imshow` and
-`edge` (in `fsmPrepScaleSpace.m`), which require MATLAB's **Image
+No specific Matlab version is recorded. The scripts use `imshow` and
+`edge` (in `fsmPrepScaleSpace.m`), which require Matlab's **Image
 Processing Toolbox**. Everything else (`imread`, `imfinfo`, `filter2`,
-`colormap`, `waitbar`) is core MATLAB.
+`colormap`, `waitbar`) is core Matlab.
 
 ## Input/output
 

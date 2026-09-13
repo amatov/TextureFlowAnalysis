@@ -3,7 +3,7 @@
 ## Quick start
 
 This repository implements an orientation-sensitive texture filter for
-local motion analysis in MATLAB. See [DEPENDENCIES.md](DEPENDENCIES.md)
+local motion analysis in Matlab. See [DEPENDENCIES.md](DEPENDENCIES.md)
 for the Image Processing Toolbox requirement. Each script prompts
 interactively for its input image(s); sample images to try them on are
 in [`media/`](media/).
