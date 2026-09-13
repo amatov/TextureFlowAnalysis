@@ -1,10 +1,12 @@
+## TextureFlowAnalysis
+
 ## Quick start
 
 This repository implements an orientation-sensitive texture filter for
 local motion analysis in MATLAB. See [DEPENDENCIES.md](DEPENDENCIES.md)
 for the Image Processing Toolbox requirement. Each script prompts
 interactively for its input image(s); sample images to try them on are
-in `media/`.
+in [`media/`](media/).
 
 ## Repository contents
 
@@ -16,7 +18,7 @@ in `media/`.
 - `fsmPrepScaleSpace.m` -- a standalone scale-space / edge-detection
   script.
 - `Gauss2D1.m` -- a Gaussian-filter helper used by `textureFilter.m`.
-- `media/` -- sample/example images.
+- [`media/`](media/) -- sample/example images.
 - **License:** see [LICENSE](LICENSE) -- research/educational use.
 
 ## About
